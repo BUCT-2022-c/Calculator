@@ -1,5 +1,4 @@
 ﻿
-
 #define bei 0.02857142
 //#define pi 3.1415926
 #include "image.h"
@@ -298,7 +297,8 @@ void graph::welcome() {
 		break;
 	}
 	default: {
-		cout << "输入错误";
+		cout << "输入错误" << endl;
+		welcome();
 		  }
 	}
 
@@ -307,10 +307,18 @@ bool graph::check_input()
 {
 	if (a > 1000000 or b > 1000000 or c > 1000000 or d > 1000000 or a < -1000000 or b < -1000000 or c < -1000000 or d < -1000000)
 	{
-		cout << "[Error] input error";
+		cout << "[Error] input error" << endl;
+		return 0;
+		
+	}
+	else if (a==0 and b==0 and c==0 and d==0)
+	{
+		cout << "[Error] input zero" << endl;
+		cin.clear();
+		cin.ignore();
 		return 0;
 	}
-	return 1;
+	else { return 1; }
 }
 double graph::get_a() {
 	return this->a;

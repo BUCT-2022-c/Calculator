@@ -51,9 +51,9 @@ int main()
             //     if (s1.check_input()) {
             //         abstract_graph(700, 700);
             //         print_graph(s1.get_a(), s1.get_b(), s1.get_c(), s1.get_d(), s1.get_parameter());
+            //         _getch();
+            //         closegraph();
             //     }
-            //     _getch();
-            //     closegraph();
             //     cin.get();
             //     cout<< "输入\"c\"清理屏幕\t输入\"q\"退出"<<endl;
             //     cin >> image_choice;
