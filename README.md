@@ -25,7 +25,7 @@ make
 ### Visual Studio 中编译
 ***可使用全部功能,但需要在编译前下载EasyX Graphics Library.***
 
-请前往[EasyX](官网https://easyx.cn/ ) 下载EasyX 2022 版.
+请前往[EasyX官网](https://easyx.cn/ ) 下载EasyX 2022 版.
 即可在Visual Studio之中编译所有功能.
 还需注意把caculator.cpp中``#include image.h``(第10行)和功能1之中的代码(第39~62行)去掉注释.
 ### 跨平台编译
