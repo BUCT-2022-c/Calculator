@@ -1,0 +1,14 @@
+# set(SOURCES
+#     caculator.cpp
+#     calendar.cc
+#     else.cc
+#     get_time.cc
+#     history.cc
+#     matrix.cc
+#     resource.cc
+#     truth_table.cc
+#     ui.cc
+#     write_history.cc
+#     )
+
+# add_executable(calculator ${SOURCES})
