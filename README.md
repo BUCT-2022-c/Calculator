@@ -15,6 +15,7 @@
 
 ```
 g++ caculator.cpp get_time.cc history.cc ui.cc calendar.cc write_history.cc matrix.cc truth_table.cc else.cc resource.cc
+./a.out
 ```
 ### CMake 编译
 ***不可使用 1. 函数绘制功能***
