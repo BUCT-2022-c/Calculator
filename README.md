@@ -5,7 +5,13 @@
 北京化工大学, 2020级机械设计制造及其自动化专业程序设计I大作业.
 
 ---
+
+## 程序结构
+
 ![](https://github.com/BUCT-2022-c/Calculator/blob/main/%E7%A8%8B%E5%BA%8F%E7%BB%93%E6%9E%84.jpg?raw=true)
+
+---
+
 ## 程序编译与运行
 
 ### Windows下直接运行Calculator.exe
